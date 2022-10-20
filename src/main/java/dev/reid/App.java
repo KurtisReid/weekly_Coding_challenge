@@ -1,5 +1,7 @@
 package dev.reid;
 
+import dev.reid.stk.KurtStack;
+
 import java.util.LinkedList;
 
 public class App {
@@ -38,6 +40,14 @@ Do this in 0( m + n) time (where m and n are the lengths of the lists) and const
                 }
             }
         }
+
+        KurtStack ks = new KurtStack();
+        ks.push(1);
+        ks.push(2);
+        ks.push(3);
+
+        ks.pop();
+        ks.max();
 
 
 

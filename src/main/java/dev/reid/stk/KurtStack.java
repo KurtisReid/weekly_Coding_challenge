@@ -4,6 +4,7 @@ import java.util.Queue;
 //LIFO
 public class KurtStack {
      //Integer[] arr = new Integer[0];
+     //Integer[] arr = new Integer[0];
      //Integer[] maxStack = new Integer[0];
     private class Node {
         int data;
@@ -18,6 +19,17 @@ public class KurtStack {
         this.top = n;
         maxPlace = n;
     }
+
+    public KurtStack()
+    {
+        Node n = new Node();
+        n.data = 0;
+        n.nlink = null;
+
+        top = n;
+
+    }
+
 
     public void push(int val)
     {
