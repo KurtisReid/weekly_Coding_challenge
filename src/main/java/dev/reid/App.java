@@ -47,7 +47,7 @@ Do this in 0( m + n) time (where m and n are the lengths of the lists) and const
         ks.push(3);
 
         ks.pop();
-        ks.max();
+        System.out.println(ks.max());
 
 
 
